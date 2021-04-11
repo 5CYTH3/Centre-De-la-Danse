@@ -1,0 +1,153 @@
+section {
+
+    .h_txt {
+        margin: 10px 10px 10px 40px;
+        font-size: 3rem;
+        font-family: 'Abril Fatface', serif;
+    }
+
+    .contain__form {
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        margin: 40px;
+        background-color: #eeeeee;
+        height: 500px;
+
+        .contact__form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            width: 80%;
+    
+            .side__part {
+                overflow: hidden;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                background-color: $funkyred;
+                border: solid $funkyred;
+                height: 90%;
+                width: 30%;
+
+                :nth-child(3) {
+                    margin-top: 2rem;
+
+                }
+
+                :nth-child(5) {
+                    margin-top: 1rem;
+                    
+                }
+
+
+                img {
+                    height: 70px;
+
+                }
+    
+                h3 {
+                    font-size: 2rem;
+                    font-family: 'Abril Fatface', serif;
+                    color: $main;
+                }
+    
+                p {
+                    
+    
+    
+                }
+
+                div {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: row;
+                    color: $main;
+
+                    i {
+                        margin-top: 2px;
+                        margin-right: 10px;
+                        font-size: 1.3rem;
+
+                    }
+
+                    p {
+                        font-size: 1.3rem;
+
+                    }
+
+                }
+    
+            }
+    
+            .main__part {
+                height: 90%;
+                width: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                border: solid $funkyred;
+
+                h3 {
+                    font-size: 2rem;
+    
+                }
+    
+                p {
+    
+    
+    
+                }
+
+                .horiz-sep {
+                    color: $funkyred;
+                    width: 85%;
+
+
+                }
+    
+                .icon__contain {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+
+                    .fab {
+                        color: $blued;
+                        transition: .2s cubic-bezier(.17,.67,.83,.61);
+
+                        &:hover {
+                            transition: .2s cubic-bezier(.17,.67,.83,.61);
+                            color: $funkyred;
+
+                        }
+
+                    }
+    
+                    li {
+    
+                        list-style: none;
+    
+                        a {
+                            color: $funkyred;
+                            text-decoration: none;
+                            margin-left: 20px;
+                            margin-right: 20px; 
+    
+    
+                        }
+    
+                    }
+    
+                }
+    
+            }
+    
+        }
+
+    }
+
+}

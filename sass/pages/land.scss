@@ -1,0 +1,160 @@
+@import "../comp/components.scss";
+
+video {
+    overflow: hidden;
+    object-fit: cover;
+    object-position: 50% 50%;
+    width: 100%;
+    
+}
+
+.c-video {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    height: 600px;
+
+}
+
+.c-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    h2 {
+        color: $funkyred;
+        margin-top: 2em;
+        font-size: 3rem;
+        font-family: 'Secular One', serif;
+    }
+
+    p {
+        font-family: 'Signika', serif;
+        font-size: 2rem;
+    }
+
+}
+
+.horiz-sep {
+    margin: 30px;
+    height: 3px;
+    width: 500px;
+    background-color: black;
+
+}
+
+.u-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+
+    .w-icon {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        width: 800px;
+
+
+        .c-icon {
+            text-align: center;
+            width: 150px;
+
+            .fas {
+                color: $funkyred;
+            
+            }
+            
+            .fab {
+                color: $funkyred;
+            
+            }
+            
+            .far {
+                color: $funkyred;
+            
+            }
+
+            i {
+                margin-bottom: 10px;
+                
+
+            }
+
+            p {
+                font-family: 'Bahnschrift', serif;
+
+            }
+
+        }
+
+    }
+
+}
+
+
+
+.heighted__sec {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container__contact__link {
+        width: 80%;
+        height: 400px;
+        background-color: white;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        h2 {
+            text-align: center;
+            font-size: 2rem;
+
+        }
+
+        p{
+            text-align: center;
+            font-size: 1.3rem;
+            font-family: 'Signika', serif;
+            margin-top: 15px;
+            margin-bottom: 30px;
+        }
+    
+        a {
+            text-decoration: none;
+            color: aliceblue;
+            background-color: $funkyred;
+            text-align: center;
+            padding: 20px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: $funkyred;
+            box-shadow: 2px 2px 8px 0px #343434;
+            font-family: 'Chivo', serif;
+            transition: .1s cubic-bezier(.17,.67,.83,.61);
+
+            &:hover {
+                transition: .1s cubic-bezier(.17,.67,.83,.61);
+                padding: 25px;
+
+            }
+            
+        }
+
+    }
+
+}
+
+.logo__container {
+    display: flex;
+    justify-content: center;
+
+}

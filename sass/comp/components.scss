@@ -1,0 +1,31 @@
+$main: #f5f5f5;
+$funkyred: #f8a0a0;
+$blued: #363848;
+$ghrey: #c6c6c6;
+
+@mixin centered-perf {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+@mixin centered2 {
+  display: flex;
+  align-items: center;
+
+}
+
+
+@mixin border-solid-funk {
+  border-style: solid;
+  border-color: $funkyred;
+
+
+}
+
+@mixin centered {
+  display: flex;
+  justify-content: center;
+
+}

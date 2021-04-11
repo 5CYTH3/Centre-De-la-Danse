@@ -1,0 +1,94 @@
+.gen__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  .card__header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+
+    h2 {
+      font-family: 'Abril Fatface', serif;
+      font-size: 3rem;
+
+    }
+
+    p {
+      font-family: 'Nunito', serif;
+
+    }
+
+  }
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    width: 95%;
+    height: 95%;
+    overflow: hidden;
+
+
+      div {
+        width: 300px;
+        display: flex;
+        align-items: flex-end;
+        flex-direction: row;
+        overflow: hidden;
+        margin: 15px;
+
+
+        img {
+          overflow: hidden;
+          animation-timing-function: cubic-bezier(.17,.67,.83,.61);
+          animation-name: imgkey;
+          filter: grayscale(100%);
+          transition: filter 1s cubic-bezier(.17,.67,.83,.61);
+
+
+          &:hover {
+            filter: grayscale(0);
+            transition: filter 1s cubic-bezier(.17,.67,.83,.61);
+
+
+          }
+
+        }
+
+        div {
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+          flex-direction: column;
+          height: 50px;
+          background-color: $blued;
+          margin: 0;
+
+
+          h2 {
+            margin-left: 10px;
+            color: $main;
+
+          }
+
+          p {
+            margin-left: 10px;
+            color: $main;
+            font-family: 'Nunito', serif;
+
+          }
+
+
+        }
+
+      }
+
+  }
+
+}

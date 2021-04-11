@@ -1,0 +1,90 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+     
+    .socials__contain {
+
+        margin-top: 1rem;
+        margin-left: 5rem;
+
+        a {
+            text-decoration: $main;
+
+
+        }
+
+        p {
+            font-family: '', serif;
+            color: rgb(197, 197, 197);
+
+        }
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            margin-top: 2rem;
+
+            li {
+                list-style: none;
+                margin-left: 10px;
+                margin-right: 10px;
+                height: 40px;
+                width: 40px;
+                border: 1px solid $main;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transition: .2s cubic-bezier(.17,.67,.83,.61);
+                text-decoration: none;
+
+                a {
+                    text-decoration: none;
+
+                }
+
+                .fab {
+                    color: $main;
+                    text-decoration: none;
+
+                }
+
+                &:hover {
+                    background-color: $funkyred;
+                    border-color: $funkyred;
+                    transition: .2s cubic-bezier(.17,.67,.83,.61);
+                    text-decoration: none;
+
+                }
+
+            }
+
+        }
+
+    }
+
+    .cred__contain {
+        margin-top: 1rem;
+        margin-right: 5rem;
+
+
+    }
+
+    h3 {
+        color: $main;
+        font-size: 2rem;
+        font-family: 'Abril Fatface', serif;
+
+    }
+
+    p {
+        color: rgb(197, 197, 197);
+
+        a {
+            color: $ghrey;
+
+        }
+
+    }
+
+}
+
