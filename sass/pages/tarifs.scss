@@ -2,8 +2,37 @@
     
 .tarif__container {
     @include centered-perf;
-    height: 560px;
+    height: 700px;
 
-    
-
+    .max__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        text-align: center;
+        background-color: #e8e8e8;
+        
+        width: 80vw;
+        height: 400px;
+        
+        padding: 35px;
+        div {
+            padding: 0;
+            h1 {
+                font-family: "Abril Fatface", serif;
+                font-size: 3rem;
+            }
+            p {
+                font-family: "Bahnschrift", serif;
+                margin-top: 0;
+                font-size: 1.4rem;
+            }
+        }
+        p {
+            margin-top: 20px;
+            font-size: 2rem;
+        
+        }
+    }
 }
