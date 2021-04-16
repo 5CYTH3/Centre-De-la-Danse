@@ -335,6 +335,9 @@ section .contain__form .contact__form .side__part div i {
 section .contain__form .contact__form .side__part div p {
   font-size: 1.3rem;
 }
+section .contain__form .contact__form .side__part div .fix__num {
+  margin-left: 10px;
+}
 section .contain__form .contact__form .main__part {
   height: 90%;
   width: 50%;
@@ -447,41 +450,6 @@ section .contain__form .contact__form .main__part .icon__contain li a {
   justify-content: center;
   align-items: center;
   height: 560px;
-}
-.tarif__container .flex__container {
-  display: flex;
-  flex-direction: column;
-  border-style: solid;
-  border-color: #f8a0a0;
-  display: flex;
-  justify-content: center;
-  width: 80%;
-  height: 400px;
-}
-.tarif__container .flex__container .head__card {
-  display: flex;
-  width: 100%;
-  justify-content: flex-start;
-  flex-direction: row;
-}
-.tarif__container .flex__container .body__card {
-  display: flex;
-  width: 100%;
-  justify-content: flex-start;
-  flex-direction: row;
-}
-.tarif__container h2 {
-  font-family: "Signika", serif;
-  font-size: 2.5rem;
-}
-.tarif__container p {
-  font-size: 2rem;
-}
-.tarif__container .card__type1, .tarif__container .card__type3 {
-  margin-left: 20px;
-}
-.tarif__container .card__type2, .tarif__container .card__type4 {
-  margin-left: 40px;
 }
 
 * {

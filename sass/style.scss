@@ -11,108 +11,75 @@
 * {
     margin: 0;
     padding: 0;
-
 }
-
 body {
     background-color: $main;
-
 }
-
 section {
     height: auto;
     width: 100%;
-
 }
 
 footer {
     height: 200px;
     width: 100%;
     background-color: $blued;
-
 }
 
 header {
     height: 125px;
     width: 100%;
-
 }
 
 .sect {
     margin-top: 3px;
-
 }
 /////////////////////////
 // Header Media Queries//
 /////////////////////////
 
 @media (max-width: 860px) {
-
     .c-header {
         justify-content: center;
         flex-direction: column;
-
         div {
             h1 {
                 margin-left: 0;
-
             }
-
         }
-
         ul {
             justify-content: center;
             flex-direction: row;
             margin-right: 0;
-
             li {
                 font-size: 1rem;
-
             }
-
             :nth-child(5) {
                 margin-right: 0;
-
             }
-
         }
-
     }
-
     .horiz-sep {
         width: 85%;
-
     }
-
     .c-text {
         h2 {
             margin-right: 20px;
             margin-left: 20px;
             font-size: 2rem;
-
         }
-
         p {
             margin-right: 20px;
             margin-left: 20px;
             font-size: 1.6rem;
-
         }
-
     }
-
     .c-video {
         height: 50%;
-
     }
-
     video {
         height: 50%;
-
     }
-
-
-
 }
 
 //////////////////////////
