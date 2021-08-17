@@ -459,7 +459,7 @@ section .contain__form .contact__form .main__part .icon__contain li a {
   text-align: center;
   background-color: #e8e8e8;
   width: 80vw;
-  height: 400px;
+  min-height: 400px;
   padding: 35px;
 }
 .tarif__container .max__container div {
